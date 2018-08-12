@@ -23,7 +23,7 @@ Note about user permissions:
   Users are permitted to download and use SASBT for free, but, decompiling, modifiying or charging others to use is not allowed. 
   Infringing these rules or any other of the exclusive copyright will lead to legal actions.      
   
-Setting up SASBT:
+Installing SASBT:
 
   After downloading SASBT, you will have to execute it once for downloading and installing some other needed software (listed in 
   "Third part software"). Follow these steps:
