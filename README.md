@@ -1,4 +1,4 @@
-# sasbt 0.1
+# SASBT 0.1 (READ AS RAW TEXT) 
 Software for Automated Search of Biological Targets (SASBT)
 
 Version: 0.1 (BETA)
