@@ -117,6 +117,6 @@ Installation error:
     -You are not connected to the internet or the server is refusing connections to the Ubuntu's repositories.
     -You do not have sudo privileges in the user.
     -You are typing a wrong sudo password.
-    -SASBT do not have privileges for creating files on your user home directory.
+    -SASBT does not have privileges for creating files on your user home directory.
 
  
