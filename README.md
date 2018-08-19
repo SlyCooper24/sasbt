@@ -52,6 +52,32 @@ SASBT parameters:
   In order to know how to use SASBT, you can just type: ./SASBT -h. It is going to open the help page.
   The help page is as follows:
   
+  ====
+  Syntax example: ./SASBT -f fragments.fasta -r reference.fasta -o result
+
+  Mandatory values:
+
+	  -f --> Used to set the fragments file path.
+
+	  -r --> Used to set the reference file path.
+
+	  -o --> Used to set the output file path.
+
+  Not mandatory:
+
+	  -id --> Used to set the minimum identity percentage that the fragments must have with the reference to be considered. The default value is "50".
+
+	  -c --> Used to set the minimum coverage that the fragments must have with the reference to be considered. The default value is "50".
+
+	  -fid --> Used to set the minimal identity percentage that the assembled sequence must have with its reference in order to be considered valid. The default value is "50".
+
+	  -fs --> Used to set the minimal similarity percentage that the assembled sequence must have with its reference in order to be considered valid. The default value is "50".
+
+	  -fc --> Used to set the minimal coverage percentage that the assembled sequence must have with its reference in order to be considered valid. The default value is "50".
+
+	  -th --> Used to set the number of threads to be used. Still in alpha, there is not significant performance increase.
+  ====
+
 Output files:
 
   SASBT can have up to 3 files as output. The files are:
