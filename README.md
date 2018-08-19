@@ -1,7 +1,7 @@
-# SASBT 0.1 (READ AS RAW TEXT) 
+# SASBT 1.0 (READ AS RAW TEXT) 
 Software for Automated Search of Biological Targets (SASBT)
 
-Version: 0.1 (BETA)
+Version: 1.0
 Authors:
   Software Developer: Vinícius Santos de Pontes
   Researchers: Rafael Nicolay Baptista da Silva, Manuela Leal da Silva 
