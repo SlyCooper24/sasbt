@@ -1,13 +1,13 @@
-# SASBT 1.0 (READ AS RAW TEXT) 
+# SASBT 1.1 (READ AS RAW TEXT) 
 Software for Automated Search of Biological Targets (SASBT)
 
-Version: 1.0
+Version: 1.1
 Authors:
   Software Developer: Vinícius Santos de Pontes
-  Researchers: Rafael Nicolay Baptista da Silva, Manuela Leal da Silva 
+  Researchers: Rafael Nicolay Baptista da Silva, Vinicius Santos de Pontes, Manuela Leal da Silva 
 
 README file written by: Vinícius Santos de Pontes
-Date: 12/08/2018
+Date: 16/11/2018
 
 Tested on:
   Ubuntu 14.04 LTS
@@ -65,15 +65,17 @@ SASBT parameters:
 
   Not mandatory:
 
-	  -id --> Used to set the minimum identity percentage that the fragments must have with the reference to be considered. The default value is "50".
+	  -id --> Used to set the minimum identity percentage that the fragments must have with the reference to be considered. The default value is "40".
 
 	  -c --> Used to set the minimum coverage that the fragments must have with the reference to be considered. The default value is "50".
 
 	  -fid --> Used to set the minimal identity percentage that the assembled sequence must have with its reference in order to be considered valid. The default value is "50".
 
-	  -fs --> Used to set the minimal similarity percentage that the assembled sequence must have with its reference in order to be considered valid. The default value is "50".
+	  -fs --> Used to set the minimal similarity percentage that the assembled sequence must have with its reference in order to be considered valid. The default value is "60".
 
-	  -fc --> Used to set the minimal coverage percentage that the assembled sequence must have with its reference in order to be considered valid. The default value is "50".
+	  -fc --> Used to set the minimal coverage percentage that the assembled sequence must have with its reference in order to be considered valid. The default value is "60".
+
+	  -fgc --> Used to set the minimal global coverage percentage that the assembled sequence must have with its reference in order to be considered valid. The default value is "60".
 
 	  -th --> Used to set the number of threads to be used. Still in alpha, there is not significant performance increase.
   ====
